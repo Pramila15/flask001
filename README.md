@@ -10,7 +10,6 @@
   <li> source venv/bin/activate </li>
   <li> deactivate </li>
 </ul>
-<p>Advanced JWT https://blog.teclado.com/learn-python-advanced-configuration-of-flask-jwt/ </p>
 
 #### Docker Commands
 ```
