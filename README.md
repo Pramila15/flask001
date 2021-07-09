@@ -11,3 +11,20 @@
   <li> deactivate </li>
 </ul>
 <p>Advanced JWT https://blog.teclado.com/learn-python-advanced-configuration-of-flask-jwt/ </p>
+
+#### Docker Commands
+```
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=True)
+    
+```
+docker build . -t docker-flask
+docker run -p 5000:5000 -t -i docker-flask:latest
+
+To check -
+docker ps
+docker ps -a
+
+To kill the port already in use
+sudo lsof -i tcp:<port number>
+kill -9 <pid>
